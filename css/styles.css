@@ -100,3 +100,28 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* Team (Section #3) */
+.team {
+  background-color: #F4F4FD;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  font-weight: 700; /* типографика заголовка секции */
+}
+
+.team-item {
+  background-color: #FFFFFF;
+}
+
+/* Центровка текстов карточек только внутри секции команды */
+.team .card-title,
+.team .card-text {
+  text-align: center;
+}

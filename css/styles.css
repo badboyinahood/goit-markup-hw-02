@@ -125,3 +125,26 @@ body {
 .team .card-text {
   text-align: center;
 }
+
+
+/* CSS-переменная для цвета текста футера */
+:root {
+  --footer-text-color: #F4F4FD;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #2e2f42;
+}
+
+/* Лого в футере: тот же класс, но цвет span как в критериях футера */
+.site-footer .site-logo .logo-accent {
+  color: #f4f4fd;
+}
+
+/* Текст футера по критериям */
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footer-text-color);
+}

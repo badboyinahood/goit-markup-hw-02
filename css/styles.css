@@ -1,0 +1,53 @@
+/* Базовые требования проекта */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+/* Логотип в навигации/футере */
+.site-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;        /* 21px при 18px */
+  letter-spacing: 0.03em;   /* 3% */
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.site-logo .logo-accent {
+  color: #2e2f42;           /* в футере позже заменим на #f4f4fd по критериям футера */
+}
+
+/* Ссылки меню навигации (одинаковый класс для всех пунктов) */
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;         /* 24px при 16px */
+  letter-spacing: 0.02em;   /* 2% */
+  color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+/* Адрес в header */
+.site-address {
+  font-style: normal;
+}
+
+/* Ссылки контактов (email/phone) */
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;         /* 24px при 16px */
+  letter-spacing: 0.02em;   /* 2% */
+  color: #434455;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
